@@ -1,0 +1,42 @@
+.vertical {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .vertical li {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: expanded;
+    padding: 10px 5px;
+  }
+  
+  .horizontal {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+  }
+  .horizontal li {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: expanded;
+    padding: 10px;
+    list-style-type: none;
+  }
+  .horizontal li a {
+    transition: 0.1s all ease-in-out;
+    color: white;
+  }
+  .horizontal li a:visited {
+    font-weight: lighter;
+    color: gray;
+    opacity: 0.8;
+  }
+  .horizontal li a:visited:hover {
+    color: white;
+  }
+  .horizontal li:hover a:after {
+    left: 5px;
+    opacity: 1;
+  }

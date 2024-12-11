@@ -1,0 +1,8 @@
+.datetime {
+    margin: 0;
+    height: fit-content;
+    text-align: center;
+
+    border: 0.5px solid #b1b1b1;
+    padding: 10px;
+  }

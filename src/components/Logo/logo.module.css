@@ -1,0 +1,11 @@
+a.logoWrapper {
+    margin: 5px;
+    padding: 0;
+    display: block;
+  }
+  a.logoWrapper img {
+    vertical-align: middle;
+    height: 75px;
+    margin: 0 auto;
+  }
+  

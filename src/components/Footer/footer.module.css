@@ -1,0 +1,16 @@
+footer.footer {
+    padding: 30px 0px;
+    height: 200px;
+    width: 100vw;
+    background-color: #b1b1b1;
+    color: white;
+    display: block;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+footer .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
